@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_margin="10dp"
+    tools:context=".activities.tImageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Breastfeeding"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Human breast milk is the gold standard of infant nutrition. It provides nearly all of the essential nutrients and bioactive substances necessary for optimal development and it constantly changes based on the infant’s nutritional needs. Breastfeeding also has many unique benefits for both the mother and baby, described in Table 1. These benefits encompass infant nutritional needs, mother-baby bonding, and maternal health. ">
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="160dp"
+                app:cardElevation="10dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/capt"></ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Beginning Breastfeeding"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Breastfeeding should be initiated within 24 hours of birth in order to stimulate the breasts and increase milk production. Initiating breastfeeding can be challenging for some mothers, and a variety of factors influence whether or not a mother will continue breastfeeding past the first few weeks. Prior lactation education, support from family and hospital staff, concern for the newborn’s health, and cultural perceptions of breastfeeding are a few of the main factors that impact a mother’s decision to breastfeed. The most influential factor on this choice is the support received from partners; however, physicians, lactation consultants, and other health professionals can also make a significant impact on a woman’s desire to continue breastfeeding.
+">
+            </TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Breastfeeding Challenges"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:text="There are several obstacles that may arise when breastfeeding which may also prevent mothers from continuing breastfeeding. Breastfeeding requires that mothers and babies stay in close proximity, which may be difficult for working mothers, even with the aid of a pump. Lack of support in the workplace or social perceptions of public breastfeeding may also make the task more difficult.
+
+Breastfeeding can be physically challenging as well. Many mothers experience sore nipples, plugged ducts, mastitis or other infections, and breast engorgement. These painful issues can cause women to stop breastfeeding. Most complications can be prevented by breastfeeding on demand, using proper breastfeeding techniques, wearing a supportive bra, and completely emptying the breast of milk. More severe complications or infections that persist will require medical attention. It is important that a mother speak with her doctor or a lactation specialist if she experiences any uncomfortable symptoms.
+
+Some mothers may also worry about producing enough milk. Only 5% of women have an insufficient milk supply; however, milk supply may dwindle if mothers are supplementing with formula or not breastfeeding on demand. Understanding the potential issues and how to overcome obstacles to breastfeeding is crucial in helping mothers continue to breastfeed."
+                android:fontFamily="@font/poppinsmedium"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Formula Feeding: Benefits and Drawbacks"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Infant formulas are specifically designed to imitate human breast milk composition and they are the only safe alternative to breast milk for infants. Many families enjoy the convenience of formula since any caregiver can help feed the baby, as opposed to just the mother. This can help in situations where the mother is resting, is unable to feed the baby, or needs to return to work. It also provides an opportunity for other family members to bond with the baby during feedings. Many parents also feel that formula feeding helps their babies sleep through the night at an earlier age, meaning fewer nighttime feedings and more sleep for the mother.
+
+A major drawback to formula feeding is the cost. Formulas cost an average of $1,500 per year. Mothers should also keep in mind that formulas cannot convey all the same health benefits as breast milk, as the non-nutritive substances such as antibodies and digestive enzymes cannot be replicated in formula. If a mother decides to use formula to feed her infant, healthcare providers should support her in her decision by helping her determine which formula provides the best option for her infant. ">
+               </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="A Mother's Choice"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Breastfeeding is the gold standard for infant nutrition and best for most mothers and babies, but there are times when bottle-feeding is the best choice for some mothers and babies. Many mothers may perceive that how they choose to feed their babies is a moral decision, with breastfeeding perceived as “good” and formula viewed as “bad” because of current stigmas and social norms. It is essential for mothers to feel supported when deciding on an infant feeding strategy that balances personal, financial, and family factors. Reducing stigmas associated with either choice is vital for helping mothers feel at peace with their decision. Most importantly, mothers should know that either breastfeeding and formula feeding can provide babies with all the essential nutrients they need for adequate growth and development.">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

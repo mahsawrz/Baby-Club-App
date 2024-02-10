@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_margin="10dp"
+    tools:context=".activities.fImageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Overview"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Infant jaundice is yellow discoloration of a newborn baby's skin and eyes. Infant jaundice occurs because the baby's blood contains an excess of bilirubin a yellow pigment of red blood cells.
+Infant jaundice is a common condition, particularly in babies born before 38 weeks' gestation (preterm babies) and some breast-fed babies. Infant jaundice usually occurs because a baby's liver isn't mature enough to get rid of bilirubin in the bloodstream. In some babies, an underlying disease may cause infant jaundice.
+Most infants born between 35 weeks' gestation and full term need no treatment for jaundice. Rarely, an unusually high blood level of bilirubin can place a newborn at risk of brain damage, particularly in the presence of certain risk factors for severe jaundice.
+">
+                    </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="160dp"
+                app:cardElevation="10dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/captu"></ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="When to see a doctor"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Most hospitals have a policy of examining babies for jaundice before discharge. The American Academy of Pediatrics recommends that newborns be examined for jaundice during routine medical checks and at least every eight to 12 hours while in the hospital.
+Your baby should be examined for jaundice between the third and seventh day after birth, when bilirubin levels usually peak. If your baby is discharged earlier than 72 hours after birth, make a follow-up appointment to look for jaundice within two days of discharge.
+The following signs or symptoms may indicate severe jaundice or complications from excess bilirubin. Call your doctor if:
+•	Your baby's skin becomes more yellow
+•	The skin on your baby's the abdomen, arms or legs looks yellow
+•	The whites of your baby's eyes look yellow
+•	Your baby seems listless or sick or is difficult to awaken
+•	Your baby isn't gaining weight or is feeding poorly
+•	Your baby makes high-pitched cries
+•	Your baby develops any other signs or symptoms that concern you
+">
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="160dp"
+                app:cardElevation="10dp"
+                android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/capturee"></ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Causes"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:text="Excess bilirubin (hyperbilirubinemia) is the main cause of jaundice. Bilirubin, which is responsible for the yellow color of jaundice, is a normal part of the pigment released from the breakdown of used red blood cells.
+Newborns produce more bilirubin than adults do because of greater production and faster breakdown of red blood cells in the first few days of life. Normally, the liver filters bilirubin from the bloodstream and releases it into the intestinal tract. A newborn's immature liver often can't remove bilirubin quickly enough, causing an excess of bilirubin. Jaundice due to these normal newborn conditions is called physiologic jaundice, and it typically appears on the second or third day of life.
+"
+                android:fontFamily="@font/poppinsmedium"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Prevention"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="The best preventive of infant jaundice is adequate feeding. Breast-fed infants should have eight to 12 feedings a day for the first several days of life. Formula-fed infants usually should have 1 to 2 ounces (about 30 to 60 milliliters) of formula every two to three hours for the first week."></TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

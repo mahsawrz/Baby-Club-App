@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Baby Club</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="fullname">fullname</string>
+    <string name="email">email</string>
+    <string name="loginhere">Already have an account? <u>Login</u></string>
+    <string name="signuphere">Create a new account? SignUp</string>
+    <string name="welcome">Welcome</string>
+</resources>

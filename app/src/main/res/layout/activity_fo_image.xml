@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_margin="10dp"
+    tools:context=".activities.foImageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Your little one came into the world accustomed to background sounds. If you're wondering why, remember that the womb can be a noisy place. While it provides a fair amount of padding, your baby in utero was surrounded by ambient sounds — like the beating of your heart and the air moving through your lungs — for nine months.
+
+No wonder, then, that so many newborns and babies find a low hum comforting and need white noise to fall asleep. White noise — the steady, unobtrusive kind that masks other noises, like sirens and barking dogs — can also help adults doze off. Here's what you need to know about using white noise to soothe your child to sleep.">
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="160dp"
+                app:cardElevation="10dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/captuu"></ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Is white noise okay for babies?"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="White noise is meant to be in the background, so as long as it stays there, white noise is okay for babies from a health perspective. The American Academy of Pediatrics (AAP) recommends using a white noise machine set no louder than 50 decibels (about the sound level of a quiet dishwasher), so you'll want to place it well away from baby's crib, use a low volume setting and stop playing it once baby falls asleep, if possible.[1]
+
+If you're still worried about the risks, follow common sense and your instincts. Don't put the white noise machine or its cords within your child's reach, and turn it off if it seems too loud or bothersome to him.">
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="160dp"
+                app:cardElevation="10dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ccapture"></ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Pros"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:text="The pros of using white noise for babies is that it soothes them and can help them get the sleep they need. One study of newborns found that 80 percent exposed to white noise dozed off within five minutes, while only 25 percent of those without the background noise fell asleep as quickly. Getting babies all the sleep they need isn't always easy, as all new parents know. Newborns up to 3 months old need to sleep about 14 to 17 hours a day and older babies need 12 to 16 hours (including naps). If a white noise machine can help keep your baby (and you) happy and well-rested, it's a great investment."
+                android:fontFamily="@font/poppinsmedium"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Cons"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+            android:text="The cons are fairly straightforward. Some babies simply don't like the sound of white noise, so you may have to rely on other ways to get your little one down. Others like it so much that they become dependent and unable to sleep unless white noise is droning in the background.
+Also, if the white noise is too loud and constant, there's a small risk of hearing loss."></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="What type of white noise is best for babies? "
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:text="There are many white noise machines on the market. If you're buying a new device, make sure it has many of the features parents find useful, including sound selection, a timer, automatic shutoff and portability, so you can show what a great sleeper your little one can be at Grandma's house.
+Other parents improvise by using other white noise sources, like the sound made by air purifiers or even vacuum cleaner videos on YouTube. Other sources of white noise include apps and videos that play hairdryers, running water, rain, birds singing and rolling waves. (Sticklers point out that some of these don't qualify as white noise — there's also pink and brown noise — but most new parents are too exhausted to sweat the details of the different frequencies and energy levels.)
+Another go-to source of white noise, especially in the summer: fans. Air conditioners, not so much. One study found that they don't seem to have a significant positive effect on sleep, perhaps because they turn off and on frequently.
+Babies, like adults, have their own preferences for sound while they sleep, so trial and error of any of these methods may be the best approach.
+
+"
+                android:fontFamily="@font/poppinsmedium"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

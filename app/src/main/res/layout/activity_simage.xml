@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_margin="10dp"
+    tools:context=".activities.sImageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Why Do Babies Cry?"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="We all know the sound, but people often wonder: Why do babies cry? There can be a whole host of reasons, but, primarily, your baby cries as a way to communicate with you. They may be uncomfortable, hungry, tired, or even just lonely. Learning what their different types of crying are saying is key to helping them calm down—and giving your ears a break. The more familiar you become with each baby cry meaning, the better you can respond, eventually leading to less crying in general.
+
+Although there are potentially a limitless number of crying causes, they typically fit into one of five general categories: hungry, upset, overstimulated, overtired, and in pain. Below, learn how to know what your infant is trying to tell you with their cries.">
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="340dp"
+                android:layout_height="160dp"
+                app:cardElevation="10dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/captur"></ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="What Are the Different Types of Cries That Babies Make?"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Just as adults have different intonations when they speak, so, too, do your baby’s cries. See if any of the following sound familiar.\n
+
+1. Hungry \n
+
+When your little one is hungry, they’ll be sure to let you know. Their cry will start with a whimper, then they’ll dial up the volume. This starving cry is their way of saying I’m hungry! Once you start feeding them, they’ll usually quiet down. Crisis: averted.\n
+
+2. Upset \n
+
+Loud cries that seem to come out of nowhere are usually because they’re upset. First and foremost, it’s wise to do a diaper check. If that’s not the problem, they may be fearful of something, like a loud noise or stranger. Or, they may be frustrated, such as being unhappy about their toy falling to the floor, or becoming tangled in a blanket. Upset cries can also simply be because your infant is bored or lonely. If you’ve ruled out the former and suspect the latter, try engaging them in something to help entertain them and bring them out of their funk.\n
+
+3. Overstimulated or Overtired \n
+
+We all have our limits—your baby is no exception. If there is too much of a hubbub around them, such as excessive noise, activity, or movements, they may cry as a way to release the tension it’s causing. Simply put: they’re annoyed. Try to tamp down on anything overstimulating to help soothe them.
+
+Likewise, a tired baby can be a cranky baby. And infants need a lot of sleep—14 to 17 hours a day in their first three months, and 12 to 15 hours in the next eight months. Sometimes good ‘ol nap time will do the trick. (And it might be a prime opportunity for you to sneak one in too!)\n
+
+4. In pain \n
+
+Cries of pain or discomfort begin as a high-pitched, intense wail, followed by very loud crying. They can be the most difficult kind of crying to witness. You may notice a change in your baby’s behavior, movements, or expression, and they may grunt or hold their breath. Frequently, these kinds of cries are caused by teething, diaper rash, constipation, or something intrusive in their environment. Gas may also be to blame, as can colic—and, no, they are not the same.
+
+If you hear burps and toots coming from your little sweetheart, or suspect they have trapped gas in their tummy, Infants’ Mylicon Gas Relief Drops in dye-free or the original formula can help quickly make them feel better. They gently break down gas bubbles to help your baby naturally pass them. (Read more about How To Relieve Infant Gas.)">
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="What Are The Stages of Crying?"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:text="Your bundle of joy is adapting to the world from the time they are born—and it can be a bumpy road. From about the time they’re two weeks old to three or four months can be the most jarring. During this time, they’ll progressively cry more, which tends to peak at about six to eight weeks. They can be noisy and fussy until they’re around three to six months old, crying an average of three hours a day. This is also the time when it’s particularly important that you be sure to rest when you can.
+
+Although it may be difficult to soothe them, rest assured, the frequency of your baby’s cries should start to subside after they get through this rough patch. And, thankfully, after the first six months, they’ll start communicating with you in different ways. You may notice them mimicking your sounds and gestures. At eight or nine months, they’ll be testing out their pipes in a new way: stringing sounds together. By 10 or 11 months, they may start pointing at things they want. You may even hear their first “mama” or “dada” at 12 to 14 months."
+                android:fontFamily="@font/poppinsmedium"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="How To Calm a Crying Baby"
+                android:fontFamily="@font/poppinsbold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:lineHeight="40dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Whether you are able to pinpoint the cause of your infant’s crying or not, it’s OK. Don’t beat yourself up. Babies cry—sometimes for no clear reason. But we know how stressful it can be in the midst of a crying episode. In addition to the above tips on how to help calm different types of cries, you can try a few other things to comfort them.
+
+Try swaddling them, holding them close to you, and rocking them gently. Sing a lullaby or softly hum a tune. White noise can also help. A ride in a stroller or car may help soothe them. And never forget the power of distraction; funny faces or a shiny toy may help.
+
+Above all, be sure to take care of yourself. If your baby won’t stop crying, put them down somewhere safe, like their crib, and take a few minutes to regroup. Or, ask someone you trust to help. Your little one is highly sensitive to your emotions, both positive and negative. If they sense you’re upset, the situation will only escalate, and you’ll have an even harder time calming them down. Plus, just like you, your infant might just need a little “me” time. After all that crying, they may just need a break too!"></TextView>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
